@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Login</title>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min"></script>
+<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+<link type="text/css" rel="stylesheet" href="style/login.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="background">
+<div class="form-horizontal">
+<div class="form-group">
+<a href="Index.html" style="color:white; margin-left:30px;">GoBack</a>
+<br />
+<br />
+<br />
+<br />
+<h1 class="h1">Login</h1>
+
+<!-- <input type="text" value="" name="text" placeholder="First-Name" class="form-control" />
+</div>
+</div>
+
+<div class="form-horizontal">
+<div class="form-group">
+<input type="text" value="" name="text" placeholder="Last-Name" class="form-control" />
+</div>
+</div> -->
+
+<div class="form-horizontal">
+<div class="form-group">
+<input type="email" value="" name="email" placeholder="Email" id="loginEmail" class="form-control" />
+</div>
+</div>
+
+<div class="form-horizontal">
+<div class="form-group">
+<input type="password" value="" name="password" placeholder="Password" id="loginPass" class="form-control" />
+</div>
+</div>
+
+<div class="form-horizontal">
+<div class="form-group">
+<button type="button" value="submit" class="btn btn-block" onclick="loginAccount();">login</button>
+</div>
+</div>
+
+
+</div>
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/5.5.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDjYRfTVVDaibd5t1RgsuEJEDcGg_YUMDc",
+    authDomain: "cricworldcup2019.firebaseapp.com",
+    databaseURL: "https://cricworldcup2019.firebaseio.com",
+    projectId: "cricworldcup2019",
+    storageBucket: "",
+    messagingSenderId: "97959970799"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src="./Script/app.js"></script>
+</body>
+</html>

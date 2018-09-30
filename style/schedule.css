@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+
+.img{
+	width:100%;
+	height:100%;
+}
+.btn{
+	color:white;
+	background-color:black;
+	height:60px;
+	border:1px solid black;
+}
+
+.btn:hover{
+	
+	color:black;
+	background-color:white;
+	border:1px solid black;
+	
+	}
+	.navbar-default{
+	background-color:black;
+	opacity:0.5;
+}
+
+
+.navbar-default .navbar-brand{
+	
+	color:white;
+	font-family: 'Tangerine', serif;
+	font-size:40px;
+
+}
+    .navbar-default .navbar-nav li a{
+	
+	color:white;
+	font-family: 'Tangerine', serif;
+	font-size:40px;
+	margin:2px;
+	
+	}
+	
+	.navbar-default .navbar-nav li a:hover{
+		
+		background-color:white;
+		color:black;
+}
+
+.h1{
+	
+	    font-family: 'Tangerine', serif;
+        font-size: 48px;
+		color::white;
+	
+	}
+	
+	.carousel .carousel-inner  .img{
+		height:600px;
+		width:100%;
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+		.carousel
+		{
+			background-repeat:no-repeat;
+		background-size:cover;
+			
+			}

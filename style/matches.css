@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+
+.h1{
+	
+	color: white;
+    background-color: black;
+    height: 46px;
+	border:1px solid black;
+	font-family: 'Tangerine', serif;
+	text-align:center;
+}
+.navbar-default{
+	background-color:black;
+	opacity:0.5;
+}
+
+
+.navbar-default .navbar-brand{
+	
+	color:white;
+	font-family: 'Tangerine', serif;
+	font-size:40px;
+
+}
+    .navbar-default .navbar-nav li a{
+	
+	color:white;
+	font-family: 'Tangerine', serif;
+	font-size:40px;
+	margin:2px;
+	
+	}
+	
+	.navbar-default .navbar-nav li a:hover{
+		
+		background-color:white;
+		color:black;
+}
+
+	
+	.carousel .carousel-inner  .img{
+		height:600px;
+		width:100%;
+		background-repeat:no-repeat;
+		background-size:cover;
+		}
+		.carousel
+		{
+			background-repeat:no-repeat;
+		background-size:cover;
+			
+			}
